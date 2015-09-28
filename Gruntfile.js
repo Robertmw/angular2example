@@ -9,9 +9,10 @@ module.exports = function (grunt) {
 				],
 				dest: 'public/build',
 				options: {
-					target: 'ES5',
-					module: 'commonjs',
 					experimentalDecorators: true,
+					module: 'commonjs',
+					removeComments: true,
+					target: 'ES5',
 					sourceMap: true,
 					watch: {
 						after: ['copy'],
