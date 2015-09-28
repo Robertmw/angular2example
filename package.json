@@ -6,7 +6,11 @@
   "scripts": {
     "start": "grunt"
   },
-  "author": "Endava Team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robertmw/angular2example.git"
+  },
+  "author": "Robert Pamfile",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
