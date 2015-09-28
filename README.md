@@ -4,17 +4,21 @@ A starter template for Angular2 applications.
 
 > This starter uses [Grunt.js](http://gruntjs.com/) for a build workflow.
 
+## Installation
+* Clone this repository
+* `$ npm install`
+* `$ tsd install`
+* `$ grunt`
+
 ## Dependencies
+All you need to run this starter is [node.js](https://nodejs.org/) installed. And you should also have following NPM packages installed globally:
 
-TO DO
+  - grunt (npm install -g grunt)
+  - tsd (npm install -g tsd)
 
-## Recomanded tools
-
-- Sublime Text 3 (for TypeScript package)
 
 ## How to start from scratch
-
-- 1. Install TSD (npm install -g tsd)
-- 2. Init TSD (tsd init)
-- 3. Install Typescript compiler (npm install –g typescript)
-- 4. Install Angular2 (tsd install angular2 es6-promise rx rx-lite)
+* Install TSD (npm install -g tsd)
+* Init TSD (tsd init)
+* Install Typescript compiler (npm install –g typescript)
+* Install Angular2 (tsd install angular2 es6-promise rx rx-lite)
