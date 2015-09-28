@@ -13,12 +13,16 @@ import {FriendsService} from '../services/Friends.service';
 
 export class WelcomeComponent {
 
-	name: string;
+	visible: any;
 	names: Array<string>;
 	
 	constructor(@Inject(FriendsService) friendsService) {
-		this.name = 'Sandeep';
+		this.visible = true;
 		this.names = friendsService.names;
+	}
+
+	toggle() {
+		this.visible = !this.visible;
 	}
 
 }

@@ -1,5 +1,5 @@
-<p>Welcome {{name}}</p>
-<ul>
+<p (click)="toggle()">Toggle list</p>
+<ul [hidden]="!visible">
 	<li *ng-for="#name of names">
 		{{ name }}
 	</li>
